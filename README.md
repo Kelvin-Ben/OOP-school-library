@@ -60,17 +60,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [OOP school library] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**add Person, Student and Teacher classes** is a school library app. In this initial stage, I will implement classes to represent students and teachers. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -82,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">Ruby</a></li>
   </ul>
 </details>
 
@@ -97,11 +95,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> As a Librarian, and you need a tool to record what books are in the library and who borrows them. The app will allow you to: 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add new students or teachers]**
+- **[Add new books]**
+- **[Save records of who borrowed a given book and when]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +107,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [at the moment not available]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,59 +115,39 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+  - linters.yml and tests.yml files inside the .github folder
+  - .rubocop.yml file
+  - Gemfile 
 
-```sh
- gem install rails
-```
- -->
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+1- Navigate to the button on the top right green "code" button.
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+2- In the drop down menu choose "Download Zip" or clone it using git using the following command.
+
+3- After extracting the files, you'll have my project on your local machine.
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- Run bundle install
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+[$ ruby FILENAME.rb]
 
 ### Run tests
 
@@ -203,19 +179,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Kelvin Benjamin**
 
-👤 **Author1**
+- GitHub: [@Kelvin-Ben](https://github.com/Kelvin-Ben)
+- Twitter: [@kevoyout144](https://twitter.com/kevoyout144)
+- LinkedIn: [Kelvin-Ben](https://www.linkedin.com/in/kelvin-ben-323043173/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +193,12 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[add Person, Student, and Teacher classes]**
+- [ ] **[use the "Decorator" design pattern]**
+- [ ] **[set up associations]**
+- [ ] **[add basic UI]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +216,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Anyone who finds this project interesting is welcome to give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +224,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for the opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +232,14 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[How do i run the project in my local machine?]**
 
-  - [Answer_1]
+  - [You need to clone the project in your local environment through the terminal]
 
-- **[Question_2]**
+- **[What database are you using for this project?]**
 
-  - [Answer_2]
+  - [POSTGRESQL]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
