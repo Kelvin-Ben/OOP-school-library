@@ -1,5 +1,7 @@
-class Person
+require 'nameable'
+class Person < Nameable
   def initialize(id, age, name = 'unknown', parent_permission: true)
+    super()
     @name = name
     @id = id
     @age = age
@@ -17,4 +19,11 @@ class Person
   def can_use_services?
     of_age? || @parent_permission
   end
+
+  def correct_name
+    @NotImplementError
+  end
 end
+
+person = Person.new(22, 'maximilianus')
+person.correct_name
