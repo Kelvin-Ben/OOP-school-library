@@ -1,5 +1,5 @@
 require 'person'
-class Student
+class Student < Person
   def extends(age, classroom, name = 'unknwon', parent_permission: true)
     super(age, name, parent_permission)
     @classroom = classroom
