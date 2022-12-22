@@ -1,9 +1,9 @@
-require 'nameable'
+require './nameable'
 class Person < Nameable
-  def initialize(id, age, name = 'unknown', parent_permission: true)
+  def initialize(age, name = 'unknown', parent_permission: true)
     super()
     @name = name
-    @id = id
+    @id = Random.rand(1..100)
     @age = age
     @parent_permission = parent_permission
   end
@@ -21,9 +21,6 @@ class Person < Nameable
   end
 
   def correct_name
-    @NotImplementError
+    @name
   end
 end
-
-person = Person.new(22, 'maximilianus')
-person.correct_name
