@@ -1,3 +1,5 @@
+require_relative './date'
+
 class Rental
   attr_accessor :date, :person, :book
 
@@ -5,9 +7,9 @@ class Rental
     @date = date
 
     @person = person
-    person.rentals << self
+    person.rentals << self unless person.rentals.include?(self)
 
     @book = book
-    book.rentals << self
+    book.rentals << self unless book.rentals.include?(self)
   end
 end
