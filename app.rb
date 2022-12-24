@@ -1,16 +1,16 @@
-require './student'
-require './teacher'
-require './book'
-require './rental'
+require_relative './student'
+require_relative './teacher'
+require_relative './book'
+require_relative './rental'
 
 class App
   OPERATIONS = {
-    1 => :List_books,
-    2 => :List_people,
+    1 => :list_books,
+    2 => :list_people,
     3 => :create_person,
     4 => :create_book,
     5 => :create_rental,
-    6 => :List_rentals_for_person_id,
+    6 => :list_rentals_for_person_id,
     7 => :exit
   }.freeze
 
