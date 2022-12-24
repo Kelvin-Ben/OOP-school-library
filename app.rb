@@ -6,7 +6,7 @@ require './rental'
 class App
   OPERATIONS = {
     1 => :List_books,
-    2 => :List_people,
+    2 => :liist_people,
     3 => :create_person,
     4 => :create_book,
     5 => :create_rental,
